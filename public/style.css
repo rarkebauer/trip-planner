@@ -8,12 +8,37 @@ body {
   background-color: #C1B5AD;
 }
 
+.body-content {
+  display: flex;
+}
+
 #map {
   height: 100vh;
   width: 100vh;
+  justify-content: flex-start;
+
 }
 
 .topnav {
   background-color: rgb(40, 131, 35);
   height: 20px;
+}
+
+.trip-options {
+  background-color: rgb(65, 33, 65);
+  align-self: flex-end;
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  z-index: 3;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#location-options {
+
+}
+
+#itinerary {
+
 }
